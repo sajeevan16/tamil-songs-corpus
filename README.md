@@ -20,7 +20,7 @@ There are near to 3500 Tamil songs, from 1004 movies. `tamil_songs_corpus.csv` c
     --song_fulllyrics 
 
 # Movie JSON Object
-```JSON
+```
 { 'movie': 'Movie_Name_English (Movie_Name_Tamil)',
   'year': 'Year',
    'music': 'Music',
