@@ -2,7 +2,7 @@
 
 [![N|Solid](https://www.tamilpaa.com/images/tamilpaa-logo.png)](https://www.tamilpaa.com/)
 
-There are near to 3500 Tamil songs, from 1004 movies. `tamil_songs_corpus.csv` consists of an raw of movie JSON objects. Songs are Scriped from <https://www.tamilpaa.com/> Also Scraping script Notebook `tamilpaa_Web_scraping.ipynb` was attached. Movie JSON object has below features.
+There are near to 4217 Tamil songs, from 1004 movies. `tamil_songs_corpus.csv` consists of an raw of movie JSON objects. Songs are Scriped from <https://www.tamilpaa.com/> Also Scraping script Notebook `tamilpaa_Web_scraping.ipynb` was attached. Movie JSON object has below features.
   - movie
   - year
   - music
