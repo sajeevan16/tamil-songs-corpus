@@ -74,7 +74,7 @@ After you set up the solr environment and above Tamil songs corpus preprocessed 
 - If you have remembered only `"சத்தியமா தேவயே"` but you forget the middle words `நீ எனக்கு` from the song `"சத்தியமா நீ எனக்கு தேவயே"` for that you can use Proximity matching.
 >`song_fulllyrics: "சத்தியமா தேவயே"~3`
 - Query-time boosts allow one to specify which terms/clauses are "more important". The higher the boost factor, the more relevant the term will be, and therefore the higher the corresponding document scores. you like to search a word containing in the movie was more weight.
->(movie: "ஆசை ஆசையாய்")^1.5 OR song_fulllyrics: "ஆசை ஆசையாய்"
+>`(movie: "ஆசை ஆசையாய்")^1.5 OR song_fulllyrics: "ஆசை ஆசையாய்"`
 
 
  - In some case, ஆர்யன் also called like ஆரியன். Users don't know about documentation. So if we add those words in `synonyms.txt` when we search any of one we can get the of the results.
