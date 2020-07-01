@@ -68,7 +68,7 @@ After you set up the solr environment and above Tamil songs corpus preprocessed 
 - would you like to search for a top 10 rating songs?
 >`sort: song_rating desc, start: 0,  rows: 10`
 
-- If you have remembered only part of the name you can use Wildcard matching.  any name that starts with `"இளைய"` in the title field.
+- If you have remembered only part of the name you can use Wildcard matching.  any name that starts with `"இளைய"` in the song_music field.
 >`song_music:இளைய*`
 
 - If you have remembered only `"சத்தியமா தேவயே"` but you forget the middle words `நீ எனக்கு` from the song `"சத்தியமா நீ எனக்கு தேவயே"` for that you can use Proximity matching.
